@@ -1,0 +1,302 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.parent{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    /* border: 1px solid black; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+.child{
+    display: inline-block;
+    background-color: darksalmon;
+    height:590px;
+    width: 49%;
+    /* border: 1px solid black; */
+}
+.child1{
+    background-image: url('./images/promo_endframe_small_2x.jpg');
+    background-repeat: no-repeat;
+    background-size: 950px;
+    background-position: center;
+    background-position-y: -100px;
+}
+.child2{
+    background-image: url('./images/promo_delhi_store__dpqgyay5g30i_small_2x.jpg');
+    background-repeat: no-repeat;
+     background-size: 950px;
+    background-position: center;
+    background-position-y: -100px;
+    background-color: white;
+}
+.child3{
+    background-image: url('./images/promo_wwdc23__b68ptht3mro2_small_2x.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+}
+.child4{
+    background-image: url('https://www.apple.com/v/macbook-pro-14-and-16/e/images/meta/macbook-pro-14-and-16_overview__fz0lron5xyuu_og.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+}
+.child5{
+    background-image: url('https://www.apple.com/v/ipad-10.9/b/images/overview/hero/hero__ecv967jz1y82_large.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: white;
+}
+.child6{
+    background-image: url('https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1674044805/Croma%20Assets/Communication/Headphones%20and%20Earphones/Images/251322_0_tpksnj.png/mxw_640,f_auto');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+}
+.div{
+    /*background-color: darkkhaki;*/
+    height: 600px;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.821);
+    color: white;
+    top:0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+}
+.hidden_nav_list li{
+    list-style-type: none;
+    display: none;  
+}
+.hidden_nav_list{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.821);
+    opacity: 10;
+    display: block;
+    width: 100%;
+    height: auto;
+    left: 0%;
+    padding-left: 13%;
+}
+.nav_button:hover li{
+    display: grid;    
+}
+
+.nav_list_header{
+    font-size: 12px;
+}
+.nav_buttons{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0;
+    justify-content: space-evenly;
+    line-height: 45px;
+}
+#div_below_nav_buttons{
+    height: 40px;
+    background-color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+    margin-top:50px;
+}
+#div_home_page_div1{
+    background-image: url('https://www.ishop.fr/images/pages/hero-iphone14pro-spring-9xo85pm6sbmm-largetall-13923.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color:white;
+    background-color: black;
+    background-position-y: 180px;
+}
+#iphone14pro_homepage{
+    font-size: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#pro_beyond{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.learn_more_buy{
+    color: cornflowerblue;
+    font-size: 20px;
+    margin: 50px;
+    line-height: 50px;
+}
+#div_div1_text{
+}
+
+#div_home_page_div2{
+    background-image: url('./images/hero_iphone14_yellow__eun20sn4imi6_small_2x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -250px;
+    color:black;
+}
+#iphone14_homepage{
+    font-size: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.sub_title_div2{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#div_div2_text{
+        margin-top: 20px;
+        text-align: center;
+}
+.learn_more_buy{
+        color: cornflowerblue;
+        font-size: 20px;
+        margin: 50px;
+        line-height: 50px;
+}
+   
+#div_home_page_div3{
+    background-image: url('./images/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_small_2x.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000px;
+    background-color: black;
+    /* background-position-y: -400px; */
+    color:white;
+    
+}
+#watch{
+    font-size: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.series8{
+    font-size: 20px;
+    color: crimson;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#div_div3_text{
+    margin-top: 20px;
+    text-align: center;
+
+}
+#div_div4_text{
+    margin-top: 20px;
+    text-align: center;
+    color: antiquewhite;
+}
+.learn_more_buy{
+    color: cornflowerblue;
+    font-size: 20px;
+    margin: 50px;
+    line-height: 50px;
+}
+.learn_more_buy1{
+    color: cornflowerblue;
+    font-size: 20px;
+    margin: 50px;
+    line-height: 700px;
+}
+.sub_title_div3{
+    font-size: xx-large;
+}
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+
+#div_home_page_lastdiv{
+    display: flex;
+    height: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    /* width: 80%; */
+    flex-direction: column;
+    color: rgba(0,0,0,0.56);
+}
+.final_text_homepage{
+    padding: 0;
+    margin:0;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    line-height: 1.3333733333;
+    
+}
+
+.footer{
+    background-color: rgba(245, 245, 247, 1);
+    padding-top: 20px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 12px;
+}
+
+hr{
+    background-color: black;
+    width: inherit;
+}
+
+.flex_list{
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+}
+
+.list-heading{
+    font-weight: bold;
+}
+
+.flex_list_column{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    padding-bottom: 15px;
+}
+
+.more_ways{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copyright{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
